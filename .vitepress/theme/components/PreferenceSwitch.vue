@@ -69,7 +69,7 @@ function useToggleFn(
       @mousedown="removeOutline"
       @blur="restoreOutline"
     >
-      <span>API Preference</span>
+      <span>API Afzaligi</span>
       <VTIconChevronDown class="vt-link-icon" :class="{ open: isOpen }" />
     </button>
     <div id="preference-switches" :hidden="!isOpen" :aria-hidden="!isOpen">
@@ -90,7 +90,7 @@ function useToggleFn(
         >
         <a
           class="switch-link"
-          title="About API preference"
+          title="API afzalliklari haqida"
           href="/guide/introduction.html#api-styles"
           @click="closeSideBar"
           >?</a
@@ -108,7 +108,7 @@ function useToggleFn(
         <label class="sfc-label" @click="toggleSFC(true)">SFC</label>
         <a
           class="switch-link"
-          title="About SFC"
+          title="SFC haqida"
           href="/guide/scaling-up/sfc.html"
           @click="closeSideBar"
           >?</a

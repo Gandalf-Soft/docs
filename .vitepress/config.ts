@@ -8,21 +8,21 @@ import { headerPlugin } from './headerMdPlugin'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: 'Docs',
+    text: 'Hujjatlar',
     activeMatch: `^/(guide|style-guide|cookbook|examples)/`,
     items: [
-      { text: 'Guide', link: '/guide/introduction' },
-      { text: 'Tutorial', link: '/tutorial/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Quick Start', link: '/guide/quick-start' },
+      { text: 'Qo\'llanma', link: '/guide/introduction' },
+      { text: 'Oʻquv qoʻllanma', link: '/tutorial/' },
+      { text: 'Namuna', link: '/examples/' },
+      { text: 'Tez boshlash', link: '/guide/quick-start' },
       // { text: 'Style Guide', link: '/style-guide/' },
-      { text: 'Glossary', link: '/glossary/' },
+      { text: 'Lug\'at', link: '/glossary/' },
       {
         text: 'Vue 2 Docs',
         link: 'https://v2.vuejs.org'
       },
       {
-        text: 'Migration from Vue 2',
+        text: 'Vue 2 dan migratsiya',
         link: 'https://v3-migration.vuejs.org/'
       }
     ]
@@ -33,39 +33,39 @@ const nav: ThemeConfig['nav'] = [
     link: '/api/'
   },
   {
-    text: 'Playground',
+    text: 'O\'yin maydonchasi',
     link: 'https://play.vuejs.org'
   },
   {
-    text: 'Ecosystem',
+    text: 'Ekotizim',
     activeMatch: `^/ecosystem/`,
     items: [
       {
-        text: 'Resources',
+        text: 'Resurslar',
         items: [
-          { text: 'Partners', link: '/partners/' },
-          { text: 'Themes', link: '/ecosystem/themes' },
+          { text: 'Hamkorlar', link: '/partners/' },
+          { text: 'Mavzular', link: '/ecosystem/themes' },
           {
-            text: 'Certification',
+            text: 'Sertifikatlash',
             link: 'https://certification.vuejs.org/?ref=vuejs-nav'
           },
-          { text: 'Jobs', link: 'https://vuejobs.com/?ref=vuejs' },
-          { text: 'T-Shirt Shop', link: 'https://vue.threadless.com/' }
+          { text: 'Ishlar', link: 'https://vuejobs.com/?ref=vuejs' },
+          { text: 'Futbolkalar do\'koni', link: 'https://vue.threadless.com/' }
         ]
       },
       {
-        text: 'Official Libraries',
+        text: 'Rasmiy kutubxonalar',
         items: [
           { text: 'Vue Router', link: 'https://router.vuejs.org/' },
           { text: 'Pinia', link: 'https://pinia.vuejs.org/' },
-          { text: 'Tooling Guide', link: '/guide/scaling-up/tooling.html' }
+          { text: 'Asboblar bo\'yicha qo\'llanma', link: '/guide/scaling-up/tooling.html' }
         ]
       },
       {
-        text: 'Video Courses',
+        text: 'Video Kurslari',
         items: [
           {
-            text: 'Vue Mastery',
+            text: 'Vue Mahorati',
             link: 'https://www.vuemastery.com/courses/'
           },
           {
@@ -75,54 +75,54 @@ const nav: ThemeConfig['nav'] = [
         ]
       },
       {
-        text: 'Help',
+        text: 'Yordam',
         items: [
           {
             text: 'Discord Chat',
             link: 'https://discord.com/invite/HBherRA'
           },
           {
-            text: 'GitHub Discussions',
+              text: 'GitHub Munozaralar',
             link: 'https://github.com/vuejs/core/discussions'
           },
-          { text: 'DEV Community', link: 'https://dev.to/t/vue' }
+          { text: 'DEV Jamiyat', link: 'https://dev.to/t/vue' }
         ]
       },
       {
-        text: 'News',
+        text: 'Yangiliklar',
         items: [
           { text: 'Blog', link: 'https://blog.vuejs.org/' },
           { text: 'Twitter', link: 'https://twitter.com/vuejs' },
-          { text: 'Events', link: 'https://events.vuejs.org/' },
-          { text: 'Newsletters', link: '/ecosystem/newsletters' }
+          { text: 'Tadbirlar', link: 'https://events.vuejs.org/' },
+          { text: 'Xabarnomalar', link: '/ecosystem/newsletters' }
         ]
       }
     ]
   },
   {
-    text: 'About',
+    text: 'Biz haqimizda',
     activeMatch: `^/about/`,
     items: [
-      { text: 'FAQ', link: '/about/faq' },
-      { text: 'Team', link: '/about/team' },
-      { text: 'Releases', link: '/about/releases' },
+      { text: 'TSS', link: '/about/faq' },
+      { text: 'Jamoa', link: '/about/team' },
+      { text: 'Relizlar', link: '/about/releases' },
       {
-        text: 'Community Guide',
+        text: 'Hamjamiyat uchun qoʻllanma',
         link: '/about/community-guide'
       },
-      { text: 'Code of Conduct', link: '/about/coc' },
+      { text: 'Axloq kodeksi', link: '/about/coc' },
       {
-        text: 'The Documentary',
+        text: 'Hujjatli Film',
         link: 'https://www.youtube.com/watch?v=OrxmtDw4pVI'
       }
     ]
   },
   {
-    text: 'Sponsor',
+    text: 'Homiy',
     link: '/sponsor/'
   },
   {
-    text: 'Partners',
+    text: 'Hamkorlar',
     link: '/partners/',
     activeMatch: `^/partners/`
   }
@@ -131,101 +131,101 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/guide/': [
     {
-      text: 'Getting Started',
+      text: 'Boshlash',
       items: [
-        { text: 'Introduction', link: '/guide/introduction' },
+        { text: 'Kirish', link: '/guide/introduction' },
         {
-          text: 'Quick Start',
+          text: 'Tez Boshlash',
           link: '/guide/quick-start'
         }
       ]
     },
     {
-      text: 'Essentials',
+      text: 'Muhim narsalar',
       items: [
         {
-          text: 'Creating an Application',
+          text: 'Dastur yaratish',
           link: '/guide/essentials/application'
         },
         {
-          text: 'Template Syntax',
+          text: 'Andoza sintaksisi',
           link: '/guide/essentials/template-syntax'
         },
         {
-          text: 'Reactivity Fundamentals',
+          text: 'Reaktivlik Asoslari',
           link: '/guide/essentials/reactivity-fundamentals'
         },
         {
-          text: 'Computed Properties',
+          text: 'Hisoblangan Xususiyatlar',
           link: '/guide/essentials/computed'
         },
         {
-          text: 'Class and Style Bindings',
+          text: 'Sinf va uslubni bog\'lash',
           link: '/guide/essentials/class-and-style'
         },
         {
-          text: 'Conditional Rendering',
+          text: 'Shartli Renderlash',
           link: '/guide/essentials/conditional'
         },
-        { text: 'List Rendering', link: '/guide/essentials/list' },
+        { text: 'Ro\'yxatni Renderlash', link: '/guide/essentials/list' },
         {
-          text: 'Event Handling',
+          text: 'Voqealar Bilan Ishlash',
           link: '/guide/essentials/event-handling'
         },
-        { text: 'Form Input Bindings', link: '/guide/essentials/forms' },
+        { text: 'Shakl Kiritish Bog\'lamalari', link: '/guide/essentials/forms' },
         {
-          text: 'Lifecycle Hooks',
+          text: 'Hayotiy aylanish ilgaklari',
           link: '/guide/essentials/lifecycle'
         },
-        { text: 'Watchers', link: '/guide/essentials/watchers' },
+        { text: 'Kuzatuvchilar', link: '/guide/essentials/watchers' },
         { text: 'Template Refs', link: '/guide/essentials/template-refs' },
         {
-          text: 'Components Basics',
+          text: 'Komponentlar Asoslari',
           link: '/guide/essentials/component-basics'
         }
       ]
     },
     {
-      text: 'Components In-Depth',
+      text: 'Komponentlar batafsil',
       items: [
         {
-          text: 'Registration',
+          text: 'Roʻyxatdan oʻtish',
           link: '/guide/components/registration'
         },
-        { text: 'Props', link: '/guide/components/props' },
-        { text: 'Events', link: '/guide/components/events' },
-        { text: 'Component v-model', link: '/guide/components/v-model' },
+        { text: 'Rekvizitlar', link: '/guide/components/props' },
+        { text: 'Voqealar', link: '/guide/components/events' },
+        { text: 'Komponent v-model', link: '/guide/components/v-model' },
         {
-          text: 'Fallthrough Attributes',
+          text: 'Fallthrough atributlari',
           link: '/guide/components/attrs'
         },
-        { text: 'Slots', link: '/guide/components/slots' },
+        { text: 'Slotlar', link: '/guide/components/slots' },
         {
-          text: 'Provide / inject',
+          text: 'Ta\'minlash / kiritish',
           link: '/guide/components/provide-inject'
         },
         {
-          text: 'Async Components',
+          text: 'Asinxron komponentlar',
           link: '/guide/components/async'
         }
       ]
     },
     {
-      text: 'Reusability',
+      text: 'Qayta foydalanish',
       items: [
         {
-          text: 'Composables',
+          text: 'Murakkab moddalar',
           link: '/guide/reusability/composables'
         },
         {
-          text: 'Custom Directives',
+          text: 'Maxsus direktivalar',
           link: '/guide/reusability/custom-directives'
         },
-        { text: 'Plugins', link: '/guide/reusability/plugins' }
+        { text: 'Plaginlar', link: '/guide/reusability/plugins' }
       ]
     },
     {
-      text: 'Built-in Components',
+      text: 'O\'rnatilgan komponentlar',
       items: [
         { text: 'Transition', link: '/guide/built-ins/transition' },
         {
@@ -238,39 +238,39 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     },
     {
-      text: 'Scaling Up',
+      text: 'Kattalashtirish',
       items: [
-        { text: 'Single-File Components', link: '/guide/scaling-up/sfc' },
-        { text: 'Tooling', link: '/guide/scaling-up/tooling' },
-        { text: 'Routing', link: '/guide/scaling-up/routing' },
+        { text: 'Yagona faylli komponentlar', link: '/guide/scaling-up/sfc' },
+        { text: 'Asboblar', link: '/guide/scaling-up/tooling' },
+        { text: 'Marshrutlash', link: '/guide/scaling-up/routing' },
         {
-          text: 'State Management',
+          text: 'Holat Boshqaruvi',
           link: '/guide/scaling-up/state-management'
         },
-        { text: 'Testing', link: '/guide/scaling-up/testing' },
+        { text: 'Sinov', link: '/guide/scaling-up/testing' },
         {
-          text: 'Server-Side Rendering (SSR)',
+          text: 'Server Tomonida Renderlash (SSR)',
           link: '/guide/scaling-up/ssr'
         }
       ]
     },
     {
-      text: 'Best Practices',
+      text: 'Eng yaxshi amaliyotlar',
       items: [
         {
-          text: 'Production Deployment',
+          text: 'Dasturni joylashtirish',
           link: '/guide/best-practices/production-deployment'
         },
         {
-          text: 'Performance',
+          text: 'Ishlash',
           link: '/guide/best-practices/performance'
         },
         {
-          text: 'Accessibility',
+          text: 'Kirish imkoniyati',
           link: '/guide/best-practices/accessibility'
         },
         {
-          text: 'Security',
+          text: 'Xavfsizlik',
           link: '/guide/best-practices/security'
         }
       ]
@@ -278,54 +278,54 @@ export const sidebar: ThemeConfig['sidebar'] = {
     {
       text: 'TypeScript',
       items: [
-        { text: 'Overview', link: '/guide/typescript/overview' },
+        { text: 'Umumiy ma\'lumot', link: '/guide/typescript/overview' },
         {
-          text: 'TS with Composition API',
+          text: 'TS Composition API bilan',
           link: '/guide/typescript/composition-api'
         },
         {
-          text: 'TS with Options API',
+          text: 'TS Options API bilan',
           link: '/guide/typescript/options-api'
         }
       ]
     },
     {
-      text: 'Extra Topics',
+      text: 'Qo\'shimcha mavzular',
       items: [
         {
-          text: 'Ways of Using Vue',
+          text: 'Vue-dan foydalanish usullari',
           link: '/guide/extras/ways-of-using-vue'
         },
         {
-          text: 'Composition API FAQ',
+          text: 'Composition API TSS',
           link: '/guide/extras/composition-api-faq'
         },
         {
-          text: 'Reactivity in Depth',
+          text: 'Chuqurlikdagi reaktivlik',
           link: '/guide/extras/reactivity-in-depth'
         },
         {
-          text: 'Rendering Mechanism',
+          text: 'Renderlash Mexanizmi',
           link: '/guide/extras/rendering-mechanism'
         },
         {
-          text: 'Render Functions & JSX',
+          text: 'Render funktsiyalari va JSX',
           link: '/guide/extras/render-function'
         },
         {
-          text: 'Vue and Web Components',
+          text: 'Vue va veb-komponentlar',
           link: '/guide/extras/web-components'
         },
         {
-          text: 'Animation Techniques',
+          text: 'Animatsiya Texnikasi',
           link: '/guide/extras/animation'
         }
         // {
-        //   text: 'Building a Library for Vue',
+        //   text: 'Vue uchun Kutubxona qurish',
         //   link: '/guide/extras/building-a-library'
         // },
         // {
-        //   text: 'Vue for React Devs',
+        //   text: 'React Davs uchun Vue',
         //   link: '/guide/extras/vue-for-react-devs'
         // }
       ]
@@ -335,9 +335,9 @@ export const sidebar: ThemeConfig['sidebar'] = {
     {
       text: 'Global API',
       items: [
-        { text: 'Application', link: '/api/application' },
+        { text: 'Dastur', link: '/api/application' },
         {
-          text: 'General',
+          text: 'Umumiy',
           link: '/api/general'
         }
       ]
@@ -347,15 +347,15 @@ export const sidebar: ThemeConfig['sidebar'] = {
       items: [
         { text: 'setup()', link: '/api/composition-api-setup' },
         {
-          text: 'Reactivity: Core',
+          text: 'Reaktivlik: Yadro',
           link: '/api/reactivity-core'
         },
         {
-          text: 'Reactivity: Utilities',
+          text: 'Reaktivlik: Utilitalar',
           link: '/api/reactivity-utilities'
         },
         {
-          text: 'Reactivity: Advanced',
+          text: 'Reaktivlik: Rivojlangan',
           link: '/api/reactivity-advanced'
         },
         {
@@ -371,10 +371,10 @@ export const sidebar: ThemeConfig['sidebar'] = {
     {
       text: 'Options API',
       items: [
-        { text: 'Options: State', link: '/api/options-state' },
-        { text: 'Options: Rendering', link: '/api/options-rendering' },
+        { text: 'Options: Holat', link: '/api/options-state' },
+        { text: 'Options: Renderlash', link: '/api/options-rendering' },
         {
-          text: 'Options: Lifecycle',
+          text: 'Options: Hayot sikli',
           link: '/api/options-lifecycle'
         },
         {
@@ -383,91 +383,91 @@ export const sidebar: ThemeConfig['sidebar'] = {
         },
         { text: 'Options: Misc', link: '/api/options-misc' },
         {
-          text: 'Component Instance',
+          text: 'Komponent Misol',
           link: '/api/component-instance'
         }
       ]
     },
     {
-      text: 'Built-ins',
+      text: 'O\'rnatilgan',
       items: [
-        { text: 'Directives', link: '/api/built-in-directives' },
-        { text: 'Components', link: '/api/built-in-components' },
+        { text: 'Direktivalar', link: '/api/built-in-directives' },
+        { text: 'Componentlar', link: '/api/built-in-components' },
         {
-          text: 'Special Elements',
+          text: 'Maxsus Elementlar',
           link: '/api/built-in-special-elements'
         },
         {
-          text: 'Special Attributes',
+          text: 'Maxsus Atributlar',
           link: '/api/built-in-special-attributes'
         }
       ]
     },
     {
-      text: 'Single-File Component',
+      text: 'Yagona-Fayl Komponent',
       items: [
-        { text: 'Syntax Specification', link: '/api/sfc-spec' },
+        { text: 'Sintaksis Spetsifikatsiyasi', link: '/api/sfc-spec' },
         { text: '<script setup>', link: '/api/sfc-script-setup' },
-        { text: 'CSS Features', link: '/api/sfc-css-features' }
+        { text: 'CSS xususiyatlari', link: '/api/sfc-css-features' }
       ]
     },
     {
-      text: 'Advanced APIs',
+      text: 'Kengaytirilgan API-Lar',
       items: [
-        { text: 'Render Function', link: '/api/render-function' },
-        { text: 'Server-Side Rendering', link: '/api/ssr' },
-        { text: 'TypeScript Utility Types', link: '/api/utility-types' },
-        { text: 'Custom Renderer', link: '/api/custom-renderer' }
+        { text: 'Render Funktsiyasi', link: '/api/render-function' },
+        { text: 'Server Tomonida Renderlash', link: '/api/ssr' },
+        { text: 'TypeScript Yordam Dasturi Turlari', link: '/api/utility-types' },
+        { text: 'Maxsus Renderer', link: '/api/custom-renderer' }
       ]
     }
   ],
   '/examples/': [
     {
-      text: 'Basic',
+      text: 'Asosiy',
       items: [
         {
-          text: 'Hello World',
+          text: 'Salom Dunyo',
           link: '/examples/#hello-world'
         },
         {
-          text: 'Handling User Input',
+          text: 'Foydalanuvchi kiritishini boshqarish',
           link: '/examples/#handling-input'
         },
         {
-          text: 'Attribute Bindings',
+          text: 'Atributlarni Bog\'lash',
           link: '/examples/#attribute-bindings'
         },
         {
-          text: 'Conditionals and Loops',
+          text: 'Shartlar va Sikllar',
           link: '/examples/#conditionals-and-loops'
         },
         {
-          text: 'Form Bindings',
+          text: 'Shakllarni Bog\'lash',
           link: '/examples/#form-bindings'
         },
         {
-          text: 'Simple Component',
+          text: 'Oddiy Komponent',
           link: '/examples/#simple-component'
         }
       ]
     },
     {
-      text: 'Practical',
+      text: 'Amaliy',
       items: [
         {
-          text: 'Markdown Editor',
+          text: 'Markdown Muharriri',
           link: '/examples/#markdown'
         },
         {
-          text: 'Fetching Data',
+          text: 'Ma\'lumotlarni Olish',
           link: '/examples/#fetching-data'
         },
         {
-          text: 'Grid with Sort and Filter',
+          text: 'Saralash va filtr bilan Grid',
           link: '/examples/#grid'
         },
         {
-          text: 'Tree View',
+          text: 'Daraxt Ko\'rinishi',
           link: '/examples/#tree'
         },
         {
@@ -475,11 +475,11 @@ export const sidebar: ThemeConfig['sidebar'] = {
           link: '/examples/#svg'
         },
         {
-          text: 'Modal with Transitions',
+          text: 'Modal O\'tishlar bilan',
           link: '/examples/#modal'
         },
         {
-          text: 'List with Transitions',
+          text: 'Roʻyxat O\'tishlar bilan',
           link: '/examples/#list-transition'
         },
         {
@@ -493,19 +493,19 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: '7 GUIs',
       items: [
         {
-          text: 'Counter',
+          text: 'Hisoblagich',
           link: '/examples/#counter'
         },
         {
-          text: 'Temperature Converter',
+          text: 'Harorat Konvertori',
           link: '/examples/#temperature-converter'
         },
         {
-          text: 'Flight Booker',
+          text: 'Parvoz Kitob',
           link: '/examples/#flight-booker'
         },
         {
-          text: 'Timer',
+          text: 'Taymer',
           link: '/examples/#timer'
         },
         {
@@ -525,26 +525,26 @@ export const sidebar: ThemeConfig['sidebar'] = {
   ],
   '/style-guide/': [
     {
-      text: 'Style Guide',
+      text: 'Uslub Qo\'llanmasi',
       items: [
         {
-          text: 'Overview',
+          text: 'Umumiy ma\'lumot',
           link: '/style-guide/'
         },
         {
-          text: 'A - Essential',
+          text: 'A - Muhim',
           link: '/style-guide/rules-essential'
         },
         {
-          text: 'B - Strongly Recommended',
+          text: 'B - Kuchli Tavsiya',
           link: '/style-guide/rules-strongly-recommended'
         },
         {
-          text: 'C - Recommended',
+          text: 'C - Tavsiya etilgan',
           link: '/style-guide/rules-recommended'
         },
         {
-          text: 'D - Use with Caution',
+          text: 'D - Ehtiyotkorlik bilan foydalaning',
           link: '/style-guide/rules-use-with-caution'
         }
       ]
@@ -553,15 +553,31 @@ export const sidebar: ThemeConfig['sidebar'] = {
 }
 
 // Placeholder of the i18n config for @vuejs-translations.
-// const i18n: ThemeConfig['i18n'] = {
-// }
+const i18n: ThemeConfig['i18n'] = {
+  footerLicense: {
+    after: ' ostida chiqarilgan.',
+    before: '',
+  },
+  appearance: 'Ko\'rinish',
+  locales: 'Tillar',
+  returnToTop: 'Yuqoriga qaytish',
+  ariaMainNav: 'Asosiy navigatsiya',
+  search: 'Qidirish',
+  menu: 'Menyu',
+  next: 'Keyingisi',
+  previous: 'Oldingisi',
+  ariaSidebarNav: 'Bo\'limlar',
+  toc: 'Ushbu sahifada',
+  joinTranslation: 'Tarjima qilishga qo\'shiling',
+  pageNotFound: 'Sahifa topilmadi'
+}
 
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
 
-  lang: 'en-US',
+  lang: 'uz-UZ',
   title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  description: 'Vue.js - O\'tkazuvchi JavaScript kutubxonasi',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
@@ -613,7 +629,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     nav,
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
-    // i18n,
+    i18n,
 
     localeLinks: [
       {
@@ -637,8 +653,13 @@ export default defineConfigWithTheme<ThemeConfig>({
         repo: 'https://github.com/vuejs-translations/docs-fr'
       },
       {
+        link: 'https://vuejs.alphacom.uz',
+        text: 'Uzbek',
+        repo: 'https://github.com/gandalf-soft/docs'
+      },
+      {
         link: '/translations/',
-        text: 'Help Us Translate!',
+        text: 'Tarjima Qilishga Yordam Bering!',
         isTranslationsDesc: true
       }
     ],
@@ -664,8 +685,8 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     editLink: {
-      repo: 'vuejs/docs',
-      text: 'Edit this page on GitHub'
+      repo: 'gandalf-soft/docs',
+      text: 'Bu sahifani GitHub\'da tahrirlash'
     },
 
     footer: {
@@ -673,7 +694,7 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: 'MIT License',
         link: 'https://opensource.org/licenses/MIT'
       },
-      copyright: `Copyright © 2014-${new Date().getFullYear()} Evan You`
+      copyright: `Mualliflik Huquqi © 2014-${new Date().getFullYear()} Evan You`
     }
   },
 

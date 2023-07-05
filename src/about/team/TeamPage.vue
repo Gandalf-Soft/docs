@@ -36,46 +36,44 @@ shuffleMembers(membersPartnerData as Member[])
 <template>
   <div class="TeamPage">
     <TeamHero>
-      <template #title>Meet the Team</template>
+      <template #title>Jamoa bilan tanishing</template>
       <template #lead
-        >The development of Vue and its ecosystem is guided by an international
-        team, some of whom have chosen to be
-        <span class="nowrap">featured below.</span></template
+        >Vue va uning ekotizimining rivojlanishi xalqaro guruh tomonidan boshqariladi, ularning ba'zilari
+        <span class="nowrap">quyida namoyish etishni tanladilar.</span></template
       >
 
       <template #action>
         <VTLink
           href="https://github.com/vuejs/governance/blob/master/Team-Charter.md"
-          >Learn more about teams</VTLink
+          >Jamoa haqida batafsil</VTLink
         >
       </template>
     </TeamHero>
 
     <TeamList :members="membersCoreData as Member[]">
-      <template #title>Core Team Members</template>
+      <template #title>Asosiy Jamoa A'zolari</template>
       <template #lead
-        >Core team members are those who are actively involved in the
-        maintenance of one or more core projects. They have made significant
-        contributions to the Vue ecosystem, with a long term commitment to the
-        success of the project and its users.</template
+        >Asosiy guruh a'zolari bir yoki bir nechta asosiy loyihalarni amalga oshirishda
+        faol ishtirok etadiganlardir. Ular loyiha va uning foydalanuvchilari muvaffaqiyatiga
+        uzoq muddatli sodiqlik bilan Vue ekotizimiga katta hissa qo'shdilar.</template
       >
     </TeamList>
 
     <TeamList :members="membersEmeritiData as Member[]">
-      <template #title>Core Team Emeriti</template>
+      <template #title>Asosiy Jamoa Emeriti</template>
       <template #lead
-        >Here we honor some no-longer-active core team members who have made
-        valuable contributions in the past.</template
+        >Bu erda biz o'tmishda qimmatli hissa qo'shgan ba'zi faol bo'lmagan
+        asosiy jamoa a'zolarini hurmat qilamiz.</template
       >
     </TeamList>
 
     <TeamList :members="membersPartnerData as Member[]">
-      <template #title>Community Partners</template>
+      <template #title>Jamiyat hamkorlari</template>
       <template #lead
-        >Some members of the Vue community have so enriched it, that they
-        deserve special mention. We've developed a more intimate relationship
-        with these key partners, often coordinating with them on upcoming
-        features and news.</template
+        >Vue hamjamiyatining ba'zi a'zolari uni shu qadar boyitdilarki,
+        ular alohida e'tiborga loyiqdir. Biz ushbu asosiy sheriklar bilan
+        yanada yaqinroq munosabatlarni rivojlantirdik, ko'pincha ular bilan
+        kelgusi xususiyatlar va yangiliklar bo'yicha muvofiqlashtirdik.</template
       >
     </TeamList>
   </div>

@@ -61,7 +61,7 @@ onMounted(async () => {
           <div class="vj-job-title">{{ job.title }}</div>
           <div class="vj-job-info">
             {{ job.organization.name }} <span>· </span>
-            <span>{{ job.remote ? 'Remote' : job.locations[0] }}</span>
+            <span>{{ job.remote ? 'Masofadan' : job.locations[0] }}</span>
           </div>
         </div>
       </a>
@@ -71,7 +71,7 @@ onMounted(async () => {
       <a
         href="https://vuejobs.com/?utm_source=vuejs&utm_medium=referral&utm_campaign=jobs_widget&utm_content=bottom_link"
         target="_blank"
-        title="Hire Vue.js developers"
+        title="Vus.js dasturchilarin yollash"
         >vuejobs.com</a
       >
     </div>

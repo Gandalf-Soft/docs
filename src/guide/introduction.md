@@ -2,14 +2,14 @@
 footer: false
 ---
 
-# Introduction {#introduction}
+# Kirish {#introduction}
 
-:::info You are reading the documentation for Vue 3!
+:::info Siz Vue 3 uchun hujjatlarni o'qiyapsiz!
 
-- Vue 2 support will end on Dec 31, 2023. Learn more about [Vue 2 Extended LTS](https://v2.vuejs.org/lts/).
-- Vue 2 documentation has been moved to [v2.vuejs.org](https://v2.vuejs.org/).
-- Upgrading from Vue 2? Check out the [Migration Guide](https://v3-migration.vuejs.org/).
-  :::
+- Vue 2 qo'llab-quvvatlash dekabr kuni nihoyasiga etadi 31, 2023. [Vue 2 Kengaytirilgan LTS](https://v2.vuejs.org/lts/) haqida ko'proq bilib oling. 
+- Vue 2 hujjatlari ko'chirildi [v2.vuejs.org](https://v2.vuejs.org/).
+- Vue 2 dan yangilanyapsizmi? [Migratsiya qoʻllanmasi](https://v3-migration.vuejs.org/)ni koʻrib chiqing.
+:::
 
 <style src="@theme/styles/vue-mastery.css"></style>
 <div class="vue-mastery-link">
@@ -17,18 +17,18 @@ footer: false
     <div class="banner-wrapper">
       <img class="banner" alt="Vue Mastery banner" width="96px" height="56px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vuemastery-graphical-link-96x56.png" />
     </div>
-    <p class="description">Learn Vue with video tutorials on <span>VueMastery.com</span></p>
+    <p class="description"><span>VueMastery.com</span> saytidagi video darsliklar bilan Vue-ni o'rganing</p>
     <div class="logo-wrapper">
         <img alt="Vue Mastery Logo" width="25px" src="https://storage.googleapis.com/vue-mastery.appspot.com/flamelink/media/vue-mastery-logo.png" />
     </div>
   </a>
 </div>
 
-## What is Vue? {#what-is-vue}
+## Vue ozi nima? {#what-is-vue}
 
-Vue (pronounced /vjuː/, like **view**) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative and component-based programming model that helps you efficiently develop user interfaces, be they simple or complex.
+Vue (talaffuzi /vjuː/, **ko'rinish** kabi) foydalanuvchi interfeyslarini yaratish uchun JavaScript freymvorki. U standart HTML, CSS va JavaScript-ga asoslanadi va oddiy yoki murakkab bo'lishidan qat'i nazar, foydalanuvchi interfeyslarini samarali rivojlantirishga yordam beradigan deklarativ va komponentlarga asoslangan dasturlash modelini taqdim etadi.
 
-Here is a minimal example:
+Mana minimal misol:
 
 <div class="options-api">
 
@@ -61,15 +61,15 @@ createApp({
 
 </div>
 
+
 ```vue-html
 <div id="app">
   <button @click="count++">
-    Count is: {{ count }}
+    Hisoblash: {{ count }}
   </button>
 </div>
 ```
-
-**Result**
+**Natija**
 
 <script setup>
 import { ref } from 'vue'
@@ -78,42 +78,42 @@ const count = ref(0)
 
 <div class="demo">
   <button @click="count++">
-    Count is: {{ count }}
+    Hisoblash: {{ count }}
   </button>
 </div>
 
-The above example demonstrates the two core features of Vue:
+Yuqoridagi misolda Vue-ning ikkita asosiy xususiyatini namoyish etadi:
 
-- **Declarative Rendering**: Vue extends standard HTML with a template syntax that allows us to declaratively describe HTML output based on JavaScript state.
+- **Deklarativ ko'rsatish**: Vue standart HTMLni shablon sintaksisi bilan kengaytiradi, bu bizga JavaScript holatiga asoslangan HTML chiqishini deklarativ tarzda tavsiflash imkonini beradi.
 
-- **Reactivity**: Vue automatically tracks JavaScript state changes and efficiently updates the DOM when changes happen.
+- **Reaktivlik**: Vue avtomatik ravishda JavaScript holati o'zgarishlarini kuzatib boradi va o'zgarishlar sodir bo'lganda DOMni samarali yangilaydi.
 
-You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Vue offers.
+Sizda allaqachon savollar bo'lishi mumkin - tashvishlanmang. Qolgan hujjatlarda biz har bir kichik tafsilotni ko'rib chiqamiz. Hozircha, iltimos, Vue taklif qilayotgan narsalarni yuqori darajada tushunishingiz uchun o'qing.
 
-:::tip Prerequisites
-The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with [this JavaScript overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). Prior experience with other frameworks helps, but is not required.
+:::tip Old shartlar
+Hujjatlarning qolgan qismi HTML, CSS va JavaScript bilan asosiy tanishishni nazarda tutadi. Agar siz frontendni ishlab chiqishda mutlaqo yangi bo'lsangiz, birinchi qadam sifatida to'g'ridan-to'g'ri fretmvorkga o'tish eng yaxshi g'oya bo'lmasligi mumkin - asoslarni tushunib oling va keyin qaytib keling! [ushbu JavaScript asosi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) bilan bilim darajangizni tekshirishingiz mumkin. Boshqa freymvorklar bilan oldingi tajriba yordam beradii, lekin talab qilinmaydi.
 :::
 
-## The Progressive Framework {#the-progressive-framework}
+## Progressiv Freymvork {#the-progressive-framework}
 
-Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:
+Vue - bu frontend ishlab chiqishda zarur bo'lgan umumiy xususiyatlarning ko'pini qamrab oluvchi freymvork va ekotizim. Ammo veb juda xilma-xildir - biz Internetda yaratadigan narsalar shakl va miqyosda keskin farq qilishi mumkin. Shuni yodda tutgan holda, Vue moslashuvchan va asta-sekin qabul qilinadigan bo'lishi uchun yaratilgan. Foydalanish holatlaringizga qarab, Vue turli yo'llar bilan ishlatilishi mumkin:
 
-- Enhancing static HTML without a build step
-- Embedding as Web Components on any page
-- Single-Page Application (SPA)
-- Fullstack / Server-Side Rendering (SSR)
-- Jamstack / Static Site Generation (SSG)
-- Targeting desktop, mobile, WebGL, and even the terminal
+- Qurilish bosqichisiz statik HTML-ni kuchaytirish
+- Har qanday sahifaga veb-komponentlar sifatida joylashtirish
+- Yagona sahifali dastur (SPA)
+- Fullstack / Server Tomonida renfirlash (STR)
+- Jamstack / Statik Sayt Generatsiyas (SSG)
+- Maqsadli ish stoli, mobil, WebGL va hatto terminal
 
-If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.
+Agar siz ushbu tushunchalarni qo'rqitadigan deb bilsangiz, tashvishlanmang! Oquv qo'llanma va qo'llanma faqat HTML va JavaScript-ning asosiy bilimlarini talab qiladi va siz ularning hech birida mutaxassis bo'lmasdan kuzatib borishingiz kerak.
 
-If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in [Ways of Using Vue](/guide/extras/ways-of-using-vue).
+Agar siz tajribali dasturchi bo'lsangiz, Vue-ni o'zingizning stekingizga qanday qilib eng yaxshi integratsiya qilish bilan qiziqsangiz yoki bu atamalar nimani anglatishini bilmoqchi bo'lsangiz, biz ularni [Vue-dan foydalanish](/guide/extras/ways-of-using-vue) usullarida batafsilroq muhokama qilamiz.
 
-Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue "The Progressive Framework": it's a framework that can grow with you and adapt to your needs.
+Moslashuvchanligiga qaramay, Vue qanday ishlashi haqidagi asosiy ma'lumotlar ushbu foydalanish holatlarining barchasida taqsimlanadi. Agar siz hozir yangi boshlovchi bo'lsangiz ham, kelajakda yanada ulug'vor maqsadlarga erishish uchun o'sib ulg'ayganingizda, yo'lda olingan bilim foydali bo'lib qoladi. Agar siz faxriy bo'lsangiz, siz hal qilmoqchi bo'lgan muammolarga asoslanib, bir xil samaradorlikni saqlab qolgan holda Vue-dan foydalanishning optimal usulini tanlashingiz mumkin. Shuning uchun biz Vue-ni "Progressive Freymvork" deb ataymiz: bu siz bilan birga rivojlana oladigan va ehtiyojlaringizga moslasha oladigan freymvork.
 
-## Single-File Components {#single-file-components}
+## Yagona-Fayl Komponentlarini {#single-file-components}
 
-In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called **Single-File Component** (also known as `*.vue` files, abbreviated as **SFC**). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:
+Ko'pgina qurilish asboblari yoqilgan Vue loyihalarida biz Vue komponentlarini **Yagona fayl komponenti** (shuningdek, `*.vue` fayllari sifatida ham tanilgan, **SFC** nomi bilan qisqartirilgan) deb nomlangan HTML-ga o'xshash fayl formatidan foydalangan holda mualliflik qilamiz. Vue SFC, nomidan ko'rinib turibdiki, komponentning mantig'ini (JavaScript), shablonni (HTML) va uslublarni (CSS) bitta faylga qamrab oladi. SFC formatida yozilgan oldingi misol:
 
 <div class="options-api">
 
@@ -129,7 +129,7 @@ export default {
 </script>
 
 <template>
-  <button @click="count++">Count is: {{ count }}</button>
+  <button @click="count++">Hisoblash: {{ count }}</button>
 </template>
 
 <style scoped>
@@ -149,7 +149,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <button @click="count++">Count is: {{ count }}</button>
+  <button @click="count++">Hisoblash: {{ count }}</button>
 </template>
 
 <style scoped>
@@ -161,38 +161,38 @@ button {
 
 </div>
 
-SFC is a defining feature of Vue and is the recommended way to author Vue components **if** your use case warrants a build setup. You can learn more about the [how and why of SFC](/guide/scaling-up/sfc) in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.
+SFC Vue-ning o'ziga xos xususiyati bo'lib, agar sizning foydalanish holatingiz qurilishni sozlashni talab qilsa, Vue komponentlarini yaratishning tavsiya etilgan usuli hisoblanadi. Siz [SFC qanday va nima uchunligi](/guide/scaling-up/sfc) haqida uning maxsus bo'limida ko'proq bilib olishingiz mumkin - ammo hozircha shuni bilingki, Vue siz uchun barcha qurish vositalarini sozlash bilan shug'ullanadi.
 
-## API Styles {#api-styles}
+## API Uslublari {#api-styles}
 
-Vue components can be authored in two different API styles: **Options API** and **Composition API**.
+Vue komponentlarini ikki xil API uslubida yozish mumkin: **Options API** va **Composition API**.
 
 ### Options API {#options-api}
 
-With Options API, we define a component's logic using an object of options such as `data`, `methods`, and `mounted`. Properties defined by options are exposed on `this` inside functions, which points to the component instance:
+Options API yordamida biz `data`, `methods` va `mounted`. kabi parametrlar obyekti yordamida komponent mantigʻini aniqlaymiz. Variantlar bilan aniqlangan xususiyatlar komponent misoliga ishora qiluvchi "this" ichki funksiyalarida ochiladi:
 
 ```vue
 <script>
 export default {
-  // Properties returned from data() become reactive state
-  // and will be exposed on `this`.
+  // data() dan qaytarilgan xususiyatlar reaktiv holatga aylanadi
+  // va "this" da ko'rsatiladi.
   data() {
     return {
       count: 0
     }
   },
 
-  // Methods are functions that mutate state and trigger updates.
-  // They can be bound as event handlers in templates.
+  // Methods - bu holatni o'zgartiruvchi va yangilanishlarni ishga tushiruvchi funksiyalar.
+  // Ular shablonlarda hodisa ishlov beruvchilari sifatida bog'lanishi mumkin.
   methods: {
     increment() {
       this.count++
     }
   },
 
-  // Lifecycle hooks are called at different stages
-  // of a component's lifecycle.
-  // This function will be called when the component is mounted.
+  // Hayot sikli ilgaklari turli bosqichlarda chaqiriladi
+  // komponentning hayot aylanishi.
+  // Komponent o'rnatilganda bu funksiya chaqiriladi.
   mounted() {
     console.log(`The initial count is ${this.count}.`)
   }
@@ -200,84 +200,84 @@ export default {
 </script>
 
 <template>
-  <button @click="increment">Count is: {{ count }}</button>
+  <button @click="increment">Hisoblash: {{ count }}</button>
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt)
+[Uni Playgroundda sinab ko'ring](https://play.vuejs.org/#eNp9Uk1v2zAM/SuEsEOLFvaA3gKv2FeBbYdt2HbUoYrM2KplyZOoLEHg/z7Krp0e2gIGLJKPj49POokPw1DsE4qNqKIOZqBb6fAw+EBQ404lS3CSDqAsIaDqyOyh9VZRztWK1MXlXAcuUwpuiQC0T4428HaOx/wbr6V7JJtInIE+kaJojgr+Gqtq0ygHewVH5RqOnYmtVYFxfGgUUIqtCY+wXXLd1MqIzNojtb6Om0WCcTpgj47OGgGoNbGYpF1dvaBMHT0BE3fWQKeczvxmGpDbsD7Tae+it1hY31zcf1aRrNp2BniE31oVW3hzOs8bi/vLaZR0/FXlajcHhP3AfiBHANU2EXkH77U1unsnxbqIFLdfFm5e8zR7DONYlXMP91flSiauBUXWuDNN8RC940uehEuhfT8Yi+HHQIZ3kGI1TQplrf/3bcpRSMjGzHndou6eyT/EQ85J8TNgxLBHKdYaqdAgy87lu9/f8cDntdj7OllGv1L8hexvyhpn2Mfkapb9BDep/drnB2tc8yfeHQhdXJbKQpfrzWh+6Z9eWf0s96a4We5KjP8BygwPQQ==)
 
 ### Composition API {#composition-api}
 
-With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with [`<script setup>`](/api/sfc-script-setup). The `setup` attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in `<script setup>` are directly usable in the template.
+Composition API bilan biz import qilingan API funksiyalaridan foydalanib komponent mantiqini aniqlaymiz. SFClarda Composition API odatda [`<script setup>`](/api/sfc-script-setup) bilan ishlatiladi. `setup` atributi Vue-ni kompilyatsiya vaqtini o'zgartirishni amalga oshirishga yordam beradigan maslahat bo'lib, bizga kompozitsion API-dan kamroq foydalanish imkoniyatini beradi. Masalan, `<script setup>` da e'lon qilingan importlar va yuqori darajadagi o'zgaruvchilar/funksiyalar shablonda bevosita ishlatilishi mumkin.
 
-Here is the same component, with the exact same template, but using Composition API and `<script setup>` instead:
+Mana bir xil komponent, aynan bir xil shablonli, lekin uning o‘rniga Composition API va `<script setup>` dan foydalaniladi:
 
 ```vue
 <script setup>
 import { ref, onMounted } from 'vue'
 
-// reactive state
+// reaktiv holat
 const count = ref(0)
 
-// functions that mutate state and trigger updates
+// holatni o'zgartiruvchi va yangilanishlarni ishga tushiruvchi funksiyalar
 function increment() {
   count.value++
 }
 
-// lifecycle hooks
+// hayot aylanish ilgaklari
 onMounted(() => {
-  console.log(`The initial count is ${count.value}.`)
+  console.log(`Dastlabki hisob ${count.value}.`)
 })
 </script>
 
 <template>
-  <button @click="increment">Count is: {{ count }}</button>
+  <button @click="increment">Hisoblash: {{ count }}</button>
 </template>
 ```
 
-[Try it in the Playground](https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=)
+[Try it in the Playground](https://play.vuejs.org/#eNp9Uk1v2zAM/SuEMCApGjgDeiuSYF8FtgH7wLajDlUUxVYtU4ZEeckM//dRTu32UPQgQOR7fHyk1Iv3bVt0yYhbsYk62JYgGkrtTqJtWh8IegjmuAKP33xCMgcY4Bh8AwuuWkiUuF4zQ9VkO6i8UyRRe4wEOvNhm8uXb68emSMDLfjFv1IFsiF1urLQKTgrLK1TaGPlVGAKX0oFlGI1sY4J62jPinGJHGiyHsGiDqYxSMsr6CXCpXHRKZfM9bXEYWqtzp5AnS89wLpS1axkJc6zLVliu5tUMHpnCufL5f0nFcmpfW2hstHv4U3/rMlQ3PN4A5/N+rJD3h4HZJqWpzUcAWz2iYjdvtPO6norxWxbit3nLOpUrG6h7x8XNwyb9aWG6zfrWUysBEU2d7Rl8RA98suNfqXQvmmtM+FHm/cSpWC1jGRMOef/fh1zFJJZTXldGV2/kH+Ip5yT4mcw0YTOSDFjpEJp2HaG735/Nye+z2DjD8kx+xXwl+HFpuzxQvuQ8MC2n/FGt1/G/2ex/BPvTmQwTkNlo5k5jHwp+CN+fGX0J7s3xc1Yx48lhv8g1Qg1)
 
 ### Which to Choose? {#which-to-choose}
 
-Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.
+Ikkala API uslubi ham umumiy foydalanish holatlarini qamrab olishga qodir. Ular bir xil asosiy tizim tomonidan quvvatlanadigan turli xil interfeyslardir. Aslida, Options API Composition API-ning tepasida amalga oshiriladi! Vue haqidagi asosiy tushunchalar va bilimlar ikki uslubda bo'linadi.
 
-The Options API is centered around the concept of a "component instance" (`this` as seen in the example), which typically aligns better with a class-based mental model for users coming from OOP language backgrounds. It is also more beginner-friendly by abstracting away the reactivity details and enforcing code organization via option groups.
+Options API "komponent namunasi" (misolda ko'rsatilganidek, "bu") tushunchasi atrofida joylashgan bo'lib, u odatda OOP tilidan kelgan foydalanuvchilar uchun sinfga asoslangan aqliy model bilan yaxshiroq moslashadi. Bundan tashqari, reaktivlik tafsilotlarini mavhumlashtirish va opsiya guruhlari orqali kodni tashkil qilishni amalga oshirish orqali yangi boshlanuvchilar uchun qulayroqdir.
 
-The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.
+Composition API markazida reaktiv holat oʻzgaruvchilarini toʻgʻridan-toʻgʻri funksiya doirasida eʼlon qilish va murakkablikni hal qilish uchun bir nechta funksiyalardan holatni tuzishga qaratilgan. U yanada erkin shaklga ega va samarali foydalanish uchun Vue-da reaktivlik qanday ishlashini tushunishni talab qiladi. Buning evaziga uning moslashuvchanligi mantiqni tartibga solish va qayta ishlatish uchun yanada kuchliroq naqshlarni yaratishga imkon beradi.
 
-You can learn more about the comparison between the two styles and the potential benefits of Composition API in the [Composition API FAQ](/guide/extras/composition-api-faq).
+Ikki uslub oʻrtasidagi taqqoslash va Composition API ning potentsial afzalliklari haqida koʻproq maʼlumotni [Composition API TSS](/guide/extras/composition-api-faq) boʻlimida bilib olishingiz mumkin.
 
-If you are new to Vue, here's our general recommendation:
+Agar siz Vue-da yangi bo'lsangiz, bizning umumiy tavsiyamiz:
 
-- For learning purposes, go with the style that looks easier to understand to you. Again, most of the core concepts are shared between the two styles. You can always pick up the other style later.
+- O'rganish maqsadida sizga tushunarli ko'rinadigan uslubdan foydalaning. Shunga qaramay, asosiy tushunchalarning aksariyati ikkita uslub o'rtasida taqsimlanadi. Siz har doim boshqa uslubni keyinroq tanlashingiz mumkin.
 
-- For production use:
+- Ishlab chiqarishda foydalanish uchun:
 
-  - Go with Options API if you are not using build tools, or plan to use Vue primarily in low-complexity scenarios, e.g. progressive enhancement.
+  - Agar siz qurish vositalaridan foydalanmasangiz yoki Vue-ni asosan past murakkablikdagi stsenariylarda ishlatishni rejalashtirsangiz, Options API-dan foydalaning, masalan. progressiv takomillashtirish.
 
-  - Go with Composition API + Single-File Components if you plan to build full applications with Vue.
+  - Agar siz Vue bilan to'liq ilovalar yaratishni rejalashtirmoqchi bo'lsangiz, Composition API + Yagona-Fayl Components ga o'ting.
 
-You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the **API Preference switches** at the top of the left sidebar.
+O'rganish bosqichida faqat bitta uslubga rioya qilishingiz shart emas. Hujjatlarning qolgan qismi ikkala uslubda kod namunalarini taqdim etadi va ularni istalgan vaqtda chap yon panelning yuqori qismidagi **API Afzaligi** yordamida almashtirishingiz mumkin.
 
-## Still Got Questions? {#still-got-questions}
+## Hali ham savollaringiz bormi? {#still-got-questions}
 
-Check out our [FAQ](/about/faq).
+[TSS](/about/faq) bilan tanishing.
 
-## Pick Your Learning Path {#pick-your-learning-path}
+## Ta'lim yo'lingizni tanlang {#pick-your-learning-path}
 
-Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!
+Turli dasturchilar turli xil o'rganish uslublariga ega. Iloji bo'lsa, barcha tarkibni ko'rib chiqishni tavsiya qilsak ham, o'z xohishingizga mos o'rganish yo'lini tanlang!
 
 <div class="vt-box-container next-steps">
   <a class="vt-box" href="/tutorial/">
-    <p class="next-steps-link">Try the Tutorial</p>
-    <p class="next-steps-caption">For those who prefer learning things hands-on.</p>
+    <p class="next-steps-link">O'quv qo'llanmani sinab ko'ring</p>
+    <p class="next-steps-caption">Biror narsani qo'lda o'rganishni afzal ko'rganlar uchun.</p>
   </a>
   <a class="vt-box" href="/guide/quick-start.html">
-    <p class="next-steps-link">Read the Guide</p>
-    <p class="next-steps-caption">The guide walks you through every aspect of the framework in full detail.</p>
+    <p class="next-steps-link">Qo‘llanmani o‘qing</p>
+    <p class="next-steps-caption">Qo'llanma sizga freymvorkning har bir tomonini to'liq batafsil yoritadi.</p>
   </a>
   <a class="vt-box" href="/examples/">
-    <p class="next-steps-link">Check out the Examples</p>
-    <p class="next-steps-caption">Explore examples of core features and common UI tasks.</p>
+    <p class="next-steps-link">Misollarni ko'rib chiqing</p>
+    <p class="next-steps-caption">Asosiy xususiyatlar va umumiy UI vazifalari misollarini o'rganing.</p>
   </a>
 </div>

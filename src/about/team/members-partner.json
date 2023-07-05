@@ -1,7 +1,7 @@
 [
   {
     "name": "Maria Lamardo",
-    "title": "Front End Engineer",
+    "title": "Front End Muhandis",
     "company": "Pendo",
     "projects": [
       {
@@ -9,8 +9,8 @@
         "url": "https://github.com/vuejs/events"
       }
     ],
-    "location": "Raleigh, NC, USA",
-    "languages": ["English", "Spanish"],
+    "location": "Raleigh, NC, AQSh",
+    "languages": ["Ingliz", "Ispan"],
     "socials": {
       "github": "mlama007",
       "twitter": "MariaLamardo"
@@ -18,7 +18,7 @@
   },
   {
     "name": "Daniel Roe",
-    "title": "Framework Architect",
+    "title": "Framework Arxitektor",
     "company": "Nuxt",
     "projects": [
       {
@@ -30,8 +30,8 @@
         "url": "https://github.com/danielroe/typed-vuex"
       }
     ],
-    "location": "United Kingdom",
-    "languages": ["English"],
+    "location": "Birlashgan Qirollik",
+    "languages": ["Ingliz"],
     "socials": {
       "github": "danielroe",
       "twitter": "danielcroe",
@@ -41,7 +41,7 @@
   {
     "name": "Pratik Patel",
     "avatarPic": "https://pbs.twimg.com/profile_images/1541624512/profile-pic-09-11-2011_400x400.png",
-    "title": "Organizer",
+    "title": "Tashkilotchi",
     "company": "VueConf US",
     "projects": [
       {
@@ -49,8 +49,8 @@
         "url": "https://us.vuejs.org/"
       }
     ],
-    "location": "Atlanta, GA, USA",
-    "languages": ["English"],
+    "location": "Atlanta, GA, AQSh",
+    "languages": ["Ingliz"],
     "socials": {
       "twitter": "prpatel"
     }
@@ -58,7 +58,7 @@
   {
     "name": "Vincent Mayers",
     "avatarPic": "https://pbs.twimg.com/profile_images/916531463905992706/MNvTkO5K_400x400.jpg",
-    "title": "Organizer",
+    "title": "Tashkilotchi",
     "company": "VueConf US",
     "projects": [
       {
@@ -66,8 +66,8 @@
         "url": "https://us.vuejs.org/"
       }
     ],
-    "location": "Atlanta, GA, USA",
-    "languages": ["English"],
+    "location": "Atlanta, GA, AQSh",
+    "languages": ["Ingliz"],
     "socials": {
       "twitter": "vincentmayers"
     }
@@ -75,7 +75,7 @@
   {
     "name": "Luke Thomas",
     "avatarPic": "https://pbs.twimg.com/profile_images/1123492769299877888/aviXE_M5_400x400.jpg",
-    "title": "Creator",
+    "title": "Asoschi",
     "company": "Vue.js Amsterdam",
     "projects": [
       {
@@ -84,7 +84,7 @@
       }
     ],
     "location": "Amsterdam, Netherlands",
-    "languages": ["Dutch", "English", "German"],
+    "languages": ["Golland", "Ingliz", "Nemis"],
     "socials": {
       "twitter": "lukevscostas",
       "linkedin": "luke-kenneth-thomas-578b3916a"
@@ -93,7 +93,7 @@
   {
     "name": "Jos Gerards",
     "avatarPic": "https://pbs.twimg.com/profile_images/1110510517951627269/LDzDyd4N_400x400.jpg",
-    "title": "Event Manager",
+    "title": "Tadbir Menejeri",
     "company": "Vue.js Amsterdam",
     "projects": [
       {
@@ -101,8 +101,8 @@
         "url": "https://vuejs.amsterdam"
       }
     ],
-    "location": "Amsterdam, Netherlands",
-    "languages": ["Dutch", "English", "German"],
+    "location": "Amsterdam, Niderlandiya",
+    "languages": ["Golland", "Ingliz", "Nemis"],
     "socials": {
       "twitter": "josgerards88",
       "linkedin": "josgerards"
@@ -110,7 +110,7 @@
   },
   {
     "name": "Jen Looper",
-    "title": "CEO",
+    "title": "Bosh direktor",
     "company": "Vue Vixens",
     "projects": [
       {
@@ -122,8 +122,8 @@
         "url": "https://nativescript-vue.org/"
       }
     ],
-    "location": "Boston, MA, USA",
-    "languages": ["English", "French"],
+    "location": "Boston, MA, AQSh",
+    "languages": ["Ingliz", "Fransuz"],
     "socials": {
       "github": "jlooper",
       "twitter": "jenlooper"
@@ -131,7 +131,7 @@
   },
   {
     "name": "Alex Jover",
-    "title": "Web, PWA and Performance Consultant",
+    "title": "Veb, PWA va ishlash bo'yicha maslahatchi",
     "company": "Freelance",
     "projects": [
       {
@@ -147,8 +147,8 @@
         "url": "https://github.com/alexjoverm/vue-testing-series"
       }
     ],
-    "location": "Alicante, Spain",
-    "languages": ["Spanish", "English"],
+    "location": "Alikante, Ispaniya",
+    "languages": ["Ispan", "Ingliz"],
     "website": {
       "label": "alexjover.com",
       "url": "https://alexjover.com"
@@ -160,11 +160,11 @@
   },
   {
     "name": "Sebastien Chopin",
-    "title": "#1 Nuxt Brother",
+    "title": "#1 Nuxt Birodar",
     "company": "NuxtLabs",
     "companyLink": "https://nuxtlabs.com",
-    "location": "Bordeaux, France",
-    "languages": ["French", "English"],
+    "location": "Bordo, Frantsiya",
+    "languages": ["Fransuz", "Ingliz"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -186,11 +186,11 @@
   },
   {
     "name": "Alexandre Chopin",
-    "title": "#1 Nuxt Brother",
+    "title": "#1 Nuxt Birodar",
     "company": "NuxtLabs",
     "companyLink": "https://nuxtlabs.com",
-    "location": "Bordeaux, France",
-    "languages": ["French", "English"],
+    "location": "Bordo, Fransiya",
+    "languages": ["Fransuz", "Ingliz"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -208,9 +208,9 @@
   },
   {
     "name": "Khary Sharpe",
-    "title": "Viral Newscaster",
-    "location": "Kingston, Jamaica",
-    "languages": ["English"],
+    "title": "Virusli Yangiliklar",
+    "location": "Kingston, Yamayka",
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "VueJsNews",
@@ -228,11 +228,11 @@
   },
   {
     "name": "Pooya Parsa",
-    "title": "Technical Advisor",
-    "company": "Fandogh (AUT University)",
+    "title": "Texnik Maslahatchi",
+    "company": "Fandog (AUT universiteti)",
     "companyLink": "https://fandogh.org",
-    "location": "Tehran, Iran",
-    "languages": ["Persian", "English"],
+    "location": "Tehron, Eron",
+    "languages": ["Fors", "Ingliz"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -255,8 +255,8 @@
   {
     "name": "Xin Du",
     "title": "Nuxpert",
-    "location": "Dublin, Ireland",
-    "languages": ["Chinese", "English"],
+    "location": "Dublin, Irlandiya",
+    "languages": ["Xitoy", "Ingliz"],
     "projects": [
       {
         "label": "nuxt/*",
@@ -274,11 +274,11 @@
   },
   {
     "name": "Yi Yang",
-    "title": "Interface Elementologist",
+    "title": "Interfeys Elementologi",
     "company": "ele.me",
     "companyLink": "https://www.ele.me",
-    "location": "Shanghai, China",
-    "languages": ["Chinese", "English"],
+    "location": "Shanxay, Xitoy",
+    "languages": ["Xitoy", "Ingliz"],
     "projects": [
       {
         "label": "elemefe/element",
@@ -295,7 +295,7 @@
   },
   {
     "name": "Bruno Lesieur",
-    "title": "Cofounder",
+    "title": "Hammuassisi",
     "company": "Orchard ID",
     "companyLink": "https://www.orchard-id.com/",
     "projects": [
@@ -312,8 +312,8 @@
         "url": "https://node-atlas.js.org/"
       }
     ],
-    "location": "Annecy, France",
-    "languages": ["French", "English"],
+    "location": "Annecy, Frantsya",
+    "languages": ["Fransuz", "Ingliz"],
     "website": {
       "label": "blog.lesieur.name/",
       "url": "https://blog.lesieur.name/"
@@ -325,9 +325,9 @@
   },
   {
     "name": "ChangJoo Park",
-    "title": "Vuenthusiastic Korean Community Organizer",
-    "location": "Seoul, South Korea",
-    "languages": ["Korean", "English"],
+    "title": "Vuenthusiastic Koreys Hamjamiyati Tashkilotchi",
+    "location": "Seul, Janubiy Koreya",
+    "languages": ["Koreys", "Ingliz"],
     "projects": [
       {
         "label": "vuejs-kr/kr.vuejs.org",
@@ -349,11 +349,11 @@
   },
   {
     "name": "Erick Petrucelli",
-    "title": "Head of Engineering",
+    "title": "Muhandising Rahbari",
     "company": "Friday Finance",
     "companyLink": "https://www.fridayfinance.com/",
-    "location": "João Pessoa, Brazil",
-    "languages": ["Portuguese", "English"],
+    "location": "João Pessoa, Braziliya",
+    "languages": ["portugal", "Ingliz"],
     "projects": [
       {
         "label": "vuejs-br",
@@ -372,7 +372,7 @@
     "company": "Quasar Framework",
     "companyLink": "https://quasar.dev/",
     "location": "Bucharest, Romania",
-    "languages": ["Romanian", "English"],
+    "languages": ["Romanian", "Ingliz"],
     "projects": [
       {
         "label": "quasarframework/quasar",
@@ -400,7 +400,7 @@
       }
     ],
     "location": "Toronto, Canada",
-    "languages": ["English"],
+    "languages": ["Ingliz"],
     "socials": {
       "github": "JillzTom",
       "twitter": "jilsonthomas"
@@ -417,7 +417,7 @@
       }
     ],
     "location": "Alicante, Spain",
-    "languages": ["Spanish", "English"],
+    "languages": ["Ispan", "Ingliz"],
     "socials": {
       "github": "IsraelOrtuno",
       "twitter": "IsraelOrtuno"
@@ -428,8 +428,8 @@
     "title": "CEO",
     "company": "Vuetify LLC",
     "companyLink": "https://vuetifyjs.com",
-    "location": "Fort Worth, TX, USA",
-    "languages": ["English"],
+    "location": "Fort Worth, TX, AQSh",
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "vuetifyjs/vuetify",
@@ -447,7 +447,7 @@
     "company": "Self Employed",
     "companyLink": "http://gbezyuk.ru",
     "location": "Moscow, Russia",
-    "languages": ["Russian", "German", "English"],
+    "languages": ["Russian", "Nemis", "Ingliz"],
     "projects": [
       {
         "label": "translation-gang/ru.vuejs.org",
@@ -462,7 +462,7 @@
     "name": "Alexander Sokolov",
     "title": "Russian Translation Sharp Eye",
     "location": "Krasnodar, Russia",
-    "languages": ["Russian", "English"],
+    "languages": ["Russian", "Ingliz"],
     "projects": [
       {
         "label": "translation-gang/ru.vuejs.org",
@@ -477,7 +477,7 @@
     "company": "Vue.js Developers",
     "companyLink": "https://vuejsdevelopers.com/",
     "location": "Sydney, Australia",
-    "languages": ["English"],
+    "languages": ["Ingliz"],
     "website": {
       "label": "vuejsdevelopers.com",
       "url": "https://vuejsdevelopers.com"
@@ -502,14 +502,14 @@
         "url": "https://github.com/egoist/vue-play"
       }
     ],
-    "languages": ["Chinese", "English"],
+    "languages": ["Xitoy", "Ingliz"],
     "socials": { "github": "egoist", "twitter": "_egoistlily" }
   },
   {
     "name": "Alex Kyriakidis",
     "title": "Consultant / Author",
     "location": "Thessaloniki, Greece",
-    "languages": ["el", "English"],
+    "languages": ["el", "Ingliz"],
     "socials": { "github": "hootlex", "twitter": "hootlex" },
     "projects": [
       {
@@ -540,7 +540,7 @@
     "company": "Vue School",
     "companyLink": "https://vueschool.io/",
     "location": "Oslo, Norway",
-    "languages": ["English"],
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "vueschool.io",
@@ -558,8 +558,8 @@
     "title": "The Server Server",
     "company": "Michigan State University",
     "companyLink": "https://msu.edu/",
-    "location": "East Lansing, MI, USA",
-    "languages": ["English"],
+    "location": "East Lansing, MI, AQSh",
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "vuejs/*",
@@ -574,11 +574,11 @@
   },
   {
     "name": "Blake Newman",
-    "title": "Software Engineer",
+    "title": "Software Muhandis",
     "company": "Attest",
     "companyLink": "https://www.askattest.com/",
     "location": "London, UK",
-    "languages": ["English"],
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "vuejs.london",
@@ -593,7 +593,7 @@
     "company": "Divante",
     "companyLink": "https://divante.co/",
     "location": "Wrocław, Poland",
-    "languages": ["Polish", "English"],
+    "languages": ["Polish", "Ingliz"],
     "projects": [
       {
         "label": "DivanteLtd/vue-storefront",
@@ -611,8 +611,8 @@
     "title": "Vue Instructor",
     "company": "Vue Mastery",
     "companyLink": "https://www.vuemastery.com/",
-    "location": "Orlando, FL, USA",
-    "languages": ["English"],
+    "location": "Orlando, FL, AQSh",
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "www.vuemastery.com",
@@ -630,8 +630,8 @@
     "title": "Vue Instructor",
     "company": "Vue Mastery",
     "companyLink": "https://www.vuemastery.com/",
-    "location": "Orlando, FL, USA",
-    "languages": ["English"],
+    "location": "Orlando, FL, AQSh",
+    "languages": ["Ingliz"],
     "projects": [
       {
         "label": "www.vuemastery.com",

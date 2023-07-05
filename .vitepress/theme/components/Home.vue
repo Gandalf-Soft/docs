@@ -14,18 +14,16 @@ onMounted(async () => {
 <template>
   <section id="hero">
     <h1 class="tagline">
-      The
-      <span class="accent">Progressive</span>
-      <br />JavaScript Framework
+      <span class="accent">O'tkazuvchi</span>
+      <br />JavaScript freymvorki
     </h1>
     <p class="description">
-      An approachable, performant and versatile framework for building web
-      user interfaces.
+      Veb foydalanuvchi interfeyslarini qurish uchun yaqinroq, ishonchli va ko'rsatkichli bir kutubxona.
     </p>
     <p class="actions">
       <VueMasteryModal />
       <a class="get-started" href="/guide/introduction.html">
-        Get Started
+        Boshlash
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
@@ -38,12 +36,12 @@ onMounted(async () => {
           />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html">Install</a>
+      <a class="setup" href="/guide/quick-start.html">O'rnatish</a>
     </p>
   </section>
 
   <section id="special-sponsor">
-    <span class="lead">Special Sponsor</span>
+    <span class="lead">Maxsus Homiy</span>
     <template v-if="data && data.special">
       <template v-for="{ url, img, name, description } of data.special">
         <a :href="url" target="_blank" rel="sponsored noopener">
@@ -69,32 +67,32 @@ onMounted(async () => {
 
   <section id="highlights" class="vt-box-container">
     <div class="vt-box">
-      <h2>Approachable</h2>
+      <h2>Qulay kelib chiqadigan</h2>
       <p>
-        Builds on top of standard HTML, CSS and JavaScript with intuitive
-        API and world-class documentation.
+        Standart HTML, CSS va JavaScript asosida ishlaydi va intuitsiyali
+        API va dunyo miqyosidagi hujjatlar bilan yuqori darajada yaratilgan.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Performant</h2>
+      <h2>Ishonchli</h2>
       <p>
-        Truly reactive, compiler-optimized rendering system that rarely
-        requires manual optimization.
+        Haqiqiy reaktiv, kompilyator tomonidan optimallashtirilgan renderlash tizimi kamdan-kam hollarda
+        qo'lda optimallashtirishni talab qiladi.
       </p>
     </div>
     <div class="vt-box">
-      <h2>Versatile</h2>
+      <h2>Ko'p tomonli</h2>
       <p>
-        A rich, incrementally adoptable ecosystem that scales between a
-        library and a full-featured framework.
+        Kutobxonalar va to'liq xususiyatli framework'lar oralig'ida o'sadigan, murakkab va inkremental
+        ravishda qabul qilinadigan ekosistema.
       </p>
     </div>
   </section>
 
   <section id="sponsors">
-    <h2>Platinum Sponsors</h2>
+    <h2>Platinum Homiylar</h2>
     <SponsorsGroup tier="platinum" placement="landing" />
-    <h2>Gold Sponsors</h2>
+    <h2>Oltin Homiylar</h2>
     <SponsorsGroup tier="gold" placement="landing" />
   </section>
 
